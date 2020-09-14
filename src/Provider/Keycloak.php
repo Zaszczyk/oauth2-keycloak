@@ -80,7 +80,7 @@ class Keycloak extends AbstractProvider
 
         $params = [
             'client_id' => $this->clientId,
-            'client_secret' => $this->clientSecret,
+            // 'client_secret' => $this->clientSecret,
             'redirect_uri' => $this->redirectUri,
         ];
 
